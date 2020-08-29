@@ -1,0 +1,6 @@
+.hero-main-container{
+    background-image: linear-gradient(to right,#3390FF ,#9069F2);
+}
+.hero-main-container > h1{
+    color: white;
+}

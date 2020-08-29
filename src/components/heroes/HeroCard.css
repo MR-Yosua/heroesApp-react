@@ -1,0 +1,62 @@
+.cont-main{
+    height: 500px;
+    width: 300px; 
+    padding-bottom: 43rem;
+}
+
+.card{
+    background:deepskyblue;
+    transition:transform 100ms;
+    color: white;
+    object-fit: contain;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    
+}
+.card:hover{
+    border: 3px solid rgb(253, 253, 6);
+    cursor: pointer; 
+    transform: scale(1.09);
+}
+
+
+.more-actors{
+    object-fit: contain;
+    display:none;
+}
+
+.card:hover> .card-body> .container-info > .more-actors{
+    display: none;
+}
+.cont-img{
+    height: 50%;
+    width: 100%;
+}
+.cont-img > img {
+    object-fit: cover;
+    
+}
+
+.container-info > p { 
+    object-fit: contain;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-title{
+    color: yellow;
+    margin: 1px;
+    padding: 0px;
+}
+
+
+.card-text{
+    color: white;
+    height: 20%;
+    width: 100%;
+
+}
+
+.card-body{
+    object-fit: contain;
+}
