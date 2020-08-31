@@ -1,6 +1,30 @@
 .hero-main-container{
-    background-image: linear-gradient(to right,#3390FF ,#9069F2);
+    width: 600px;
+    justify-content: center;
+    border: 3px solid rgb(253, 253, 6);
+    border-radius: 15px;
 }
-.hero-main-container > h1{
-    color: white;
+.cont-name > h1{
+    justify-content: center;
+    margin-left: 30%;
+
+}
+.cont-img-hero{
+
+    height: 300px;
+    width: 600px; 
+    object-fit: contain;
+    overflow: hidden;
+    justify-content: center;
+} 
+.imagen-heroe{
+    
+    height: 300px;
+    width: 600px; 
+    object-fit: contain;
+}
+.cont-info{
+    padding-left: 8px;
+    font-family: "monospace";
+    object-fit: contain;
 }
